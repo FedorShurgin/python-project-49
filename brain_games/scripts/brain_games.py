@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-import prompt
 from brain_games import cli
+
 
 def main():
     cli.welcome_user()
