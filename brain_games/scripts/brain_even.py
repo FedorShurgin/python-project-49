@@ -5,6 +5,7 @@ from brain_games.cli import welcome_user
 
 def brain_even():
     number_of_iterations = 0
+    print('brain-even\n')
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     while number_of_iterations < 3:
