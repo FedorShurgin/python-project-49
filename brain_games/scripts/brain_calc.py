@@ -6,7 +6,6 @@ from brain_games.cli import welcome_user
 
 def brain_calc():
     number_of_iterations = 0
-    print('brain-even\n')
     name = welcome_user()
     print('What is the result of the expression?')
     while number_of_iterations < 3:
@@ -31,7 +30,7 @@ def brain_calc():
                 print('Correct!')
                 number_of_iterations += 1
             else:
-                print(f"{question} is wrong answer ;(. Correct answer was {add(rn_num_1, rn_num_2)}.")  # noqa: E501
+                print(f"{question} is wrong answer ;(. Correct answer was {mul(rn_num_1, rn_num_2)}.")  # noqa: E501
                 print(f"Let's try again, {name}")
                 break
         if random_operators == '-':
@@ -41,7 +40,7 @@ def brain_calc():
                 print('Correct!')
                 number_of_iterations += 1
             else:
-                print(f"{question} is wrong answer ;(. Correct answer was {add(rn_num_1, rn_num_2)}.")  # noqa: E501
+                print(f"{question} is wrong answer ;(. Correct answer was {sub(rn_num_1, rn_num_2)}.")  # noqa: E501
                 print(f"Let's try again, {name}")
                 break
     if number_of_iterations == 3:
