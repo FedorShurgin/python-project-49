@@ -16,6 +16,5 @@ def start_game(game):
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{generate_answer}'.")  # noqa: E501
             print(f"Let's try again, {name}!")
-            break
-    if number_of_iterations == 3:
-        print(f'Congratulations, {name}!')
+            return
+    print(f'Congratulations, {name}!')
