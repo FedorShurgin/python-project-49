@@ -5,3 +5,9 @@
 [![brain-even](https://asciinema.org/a/JwIYIwujYuX1Ndx04PcqjT6b6.svg)](https://asciinema.org/a/JwIYIwujYuX1Ndx04PcqjT6b6)
 ### Brain progression
 [![brain-progression](https://asciinema.org/a/nnOXGZyvH9XT139xLYrCrNDCz.svg)](https://asciinema.org/a/nnOXGZyvH9XT139xLYrCrNDCz)
+### Brain prime
+[![brain-prime](https://asciinema.org/a/bYEQ8cESJESFto8yv69EYMlSB.svg)](https://asciinema.org/a/bYEQ8cESJESFto8yv69EYMlSB)
+### Brain gcd
+[![brain-gcd](https://asciinema.org/a/Sb3xVCi8A7EQ9mTqWARB8mlee.svg)](https://asciinema.org/a/Sb3xVCi8A7EQ9mTqWARB8mlee)
+### Brain calc
+[![brain-calc](https://asciinema.org/a/iIcqRU698I3iyuPUPuRPtHAZD.svg)](https://asciinema.org/a/iIcqRU698I3iyuPUPuRPtHAZD)
