@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Mind Games is a set of five console games. Each game asks questions that need to be answered correctly."
 authors = ["Fedor.Shurgin <shurginfedor@gmail.com>"]
 readme = "README.md"
 packages = [
