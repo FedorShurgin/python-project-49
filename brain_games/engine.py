@@ -3,6 +3,10 @@ from brain_games.cli import welcome_user
 
 
 def start_game(game):
+    '''
+    accepts the results of other functions (question and answer):
+    asks a question and compares the answer with the user's answer.
+    '''
     number_of_iterations = 0
     name = welcome_user()
     print(game.DESCRIPTION)

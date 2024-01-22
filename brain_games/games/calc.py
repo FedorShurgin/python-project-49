@@ -5,6 +5,10 @@ DESCRIPTION = 'What is the result of the expression?'
 
 
 def generate_round():
+    '''
+    the function returns two values:
+    the question and the result of the function - is_calc().
+    '''
     rn_num_1 = randint(1, 25)
     rn_num_2 = randint(1, 25)
     list_of_operators = ['+', '-', '*']
@@ -15,6 +19,10 @@ def generate_round():
 
 
 def is_calc(num_1, num_2, operator):
+    '''
+    accepts two numbers and a mathematical operator,
+    returns the result of a mathematical operation.
+    '''
     if operator == '+':
         return str(num_1 + num_2)
     if operator == '-':

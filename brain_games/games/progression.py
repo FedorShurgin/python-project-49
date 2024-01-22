@@ -5,6 +5,11 @@ DESCRIPTION = 'What number is missing in the progression?'
 
 
 def generate_round():
+    '''
+    the function returns two values:
+    result_st - "Arithmetic progression" with a missing character,
+    str(rn_elem) - a random missing character.
+    '''
     result_str = ''
     progression_list = is_list()
     rn_elem = choice(progression_list)
@@ -16,6 +21,9 @@ def generate_round():
 
 
 def is_list():
+    '''
+    the function creates a random "Arithmetic progression"
+    '''
     start = randint(5, 25)
     step = randint(3, 7)
     length = randint(5, 10)
